@@ -514,33 +514,34 @@
       </div>
     </footer>
     <div class="backdrop is-open">
-      <d class="modal">
+      <div class="modal">
         <button class="modal-btn" type="button">
           <svg class="modal-icon-soc" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
+        <div>
           <form>
-            <div>
-              <label for="person" class="modal-label">Name</label>
+            <div class="modal-label-cont">
+              <label for="user-name" class="modal-label">Name</label>
             </div>
-            <div>
+            <div class="input-icon">
               <input
                 class="input"
                 type="text"
-                name="name"
+                name="user-name"
                 value="name"
-                id="person"
+                id="user-name"
               />
-              <svg class="icon-soc" width="18" height="18">
+              <svg class="form-icon-soc" width="18" height="24">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
-            <div>
+            <div class="modal-label-cont">
               <label for="phone" class="modal-label">Phone</label>
             </div>
-            <div>
+            <div class="input-icon">
               <input
                 class="input"
                 type="tel"
@@ -548,14 +549,14 @@
                 value="Phone"
                 id="phone"
               />
-              <svg class="icon-soc" width="18" height="24">
+              <svg class="form-icon-soc" width="18" height="24">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
             </div>
-            <div>
+            <div class="modal-label-cont">
               <label for="email" class="modal-label">Email</label>
             </div>
-            <div>
+            <div class="input-icon">
               <input
                 class="input"
                 type="email"
@@ -563,17 +564,20 @@
                 value="email"
                 id="email"
               />
-              <svg class="icon-soc" width="18" height="24">
+              <svg class="form-icon-soc" width="18" height="24">
                 <use href="./images/icons.svg#icon-email"></use>
               </svg>
             </div>
-            <label for="comment" class="modal-label">Comment</label>
-            <textarea
-              name="comment"
-              placeholder="Text input"
-              id="comment"
-            ></textarea>
+            <div>
+              <label for="user-comment" class="modal-label">Comment</label>
+              <textarea
+                name="user-comment"
+                placeholder="Text input"
+                id="user-comment"
+              ></textarea>
+            </div>
           </form>
+        </div>
         <button class="send-btn" type="button">Send</button>
       </div>
     </div>
