@@ -471,14 +471,22 @@ ul {
   background-color: #31d0aa;
 }
 
+.form-subscribe {
+  display: flex;
+  gap: 24px;
+}
 .input-email {
+  font-size: 12px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  padding-left: 16px;
+  color: #ffffff;
   width: 264px;
   height: 40px;
-  background-color: #2e2f42;
+  background-color: transparent;
   border-radius: 4px;
   border: 1px solid #ffffff;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
-  margin-right: 24px;
 }
 .input-email::placeholder {
   padding-left: 16px;
@@ -489,15 +497,26 @@ ul {
   letter-spacing: 0.04em;
 }
 .subscribe-btn {
-  display: inline-flex;
+  display: flex;
   padding: 8px 24px;
   justify-content: center;
   align-items: center;
   gap: 16px;
+  min-width: 165px;
+  height: 40px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+  border: none;
   border-radius: 4px;
   background: #4d5ae5;
   color: #ffffff;
   text-align: center;
+}
+
+.icon-soc {
+  margin-left: 16px;
 }
 
 .backdrop {
