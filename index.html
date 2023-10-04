@@ -521,24 +521,61 @@
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
-        <form>
-          <label>
-            Name
-            <input type="text" name="name" value="name" />
-          </label>
-          <label>
-            Phone
-            <input type="tel" name="phone" value="Phone" />
-          </label>
-          <label>
-            Email
-            <input type="email" name="email" value="email" />
-          </label>
-          <label>
-            Comment
-            <textarea name="comment" placeholder="Text input"></textarea>
-          </label>
-        </form>
+        <div>
+          <form>
+            <div>
+              <label for="person" class="modal-label">Name</label>
+            </div>
+            <div>
+              <input
+                class="input"
+                type="text"
+                name="name"
+                value="name"
+                id="person"
+              />
+              <svg class="icon-soc" width="18" height="18">
+                <use href="./images/icons.svg#icon-person"></use>
+              </svg>
+            </div>
+            <div>
+              <label for="phone" class="modal-label">Phone</label>
+            </div>
+            <div>
+              <input
+                class="input"
+                type="tel"
+                name="phone"
+                value="Phone"
+                id="phone"
+              />
+              <svg class="icon-soc" width="18" height="24">
+                <use href="./images/icons.svg#icon-phone"></use>
+              </svg>
+            </div>
+            <div>
+              <label for="email" class="modal-label">Email</label>
+            </div>
+            <div>
+              <input
+                class="input"
+                type="email"
+                name="email"
+                value="email"
+                id="email"
+              />
+              <svg class="icon-soc" width="18" height="24">
+                <use href="./images/icons.svg#icon-email"></use>
+              </svg>
+            </div>
+            <label for="comment" class="modal-label">Comment</label>
+            <textarea
+              name="comment"
+              placeholder="Text input"
+              id="comment"
+            ></textarea>
+          </form>
+        </div>
         <button class="send-btn" type="button">Send</button>
       </div>
     </div>

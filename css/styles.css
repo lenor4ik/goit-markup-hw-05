@@ -517,6 +517,12 @@ ul {
 
 .icon-soc {
   margin-left: 16px;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.icon-soc:hover,
+.icon-soc:focus {
+  fill: #ffffff;
 }
 
 .backdrop {
@@ -583,13 +589,23 @@ ul {
   letter-spacing: 0.02em;
   margin-bottom: 16px;
 }
+
+.modal-label {
+}
+
+.input {
+  width: 360px;
+  height: 58px;
+  border-radius: 4px;
+  border: 1px solid #4d5ae5;
+}
 .send-btn {
   display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
   border-radius: 4px;
-  background: #4d5ae5;
+  background-color: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   color: #fff;
   text-align: center;
