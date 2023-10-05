@@ -578,20 +578,22 @@ ul {
   padding: 0;
   cursor: pointer;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  background-color: #404bbf;
-  border: none;
-  background-color: #e7e9fc;
+  border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-btn:hover,
+.modal-btn:focus,
+.modal-btn:active{
+background-color: #404bbf;
+border: none;
+fill: #ffffff;
 }
 
   .modal-icon-soc{
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
-.modal-icon-soc:hover,
-.modal-icon-soc:focus {
-  fill: #ffffff;
-}
+
 
 .modal-title {
   color: #2e2f42;
