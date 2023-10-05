@@ -615,6 +615,13 @@ ul {
   margin-bottom: 4px;
 }
 
+.agree-label {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
+}
+
 .input-icon {
   position: relative;
 }
@@ -676,11 +683,27 @@ ul {
   border-color: #4d5ae5;
 }
 
+.agree-form {
+  margin-bottom: 24px;
+}
+
+.check-box {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  stroke-width: 1px;
+  border-radius: 3px;
+  border: 1px solid #404bbf;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+}
+.agree-inp {
+}
+
 .send-btn {
-  display: inline-flex;
-  padding: 16px 32px;
-  align-items: flex-start;
-  gap: 10px;
+  display: flex;
+  padding: 16px 64px;
   border-radius: 4px;
   background-color: #4d5ae5;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
